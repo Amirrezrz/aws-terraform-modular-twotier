@@ -18,13 +18,13 @@ The project is strictly broken down into reusable building blocks:
 ├── main.tf
 ├── variables.tf
 └── output.tf
-## 🔒 Enhanced Features
+## Enhanced Features
 * **Zoned Architecture:** Decoupled modules allow independent updates to networking or compute without affecting the entire state lifecycle.
 * **Cascading State Dependencies:** Utilizes Terraform module outputs to dynamically inject infrastructure attributes (like Subnet IDs and Security Group IDs) from the Network module directly into the Compute module.
 * **Dynamic Sizing:** Fully parameterized `instance_type` and `AMI` configuration supporting modern Free-Tier instances (`t3.micro`).
 * **Implicit Resource Interdependence:** Implements strict synchronization blocks (`depends_on`) ensuring network fabrics are fully established before provisioning servers.
 
-## 🛠️ Usage & Execution
+## Usage & Execution
 1. Clone and navigate to the directory.
 2. Populating variables: Create your `terraform.tfvars` file in the root directory:
    ```hcl
