@@ -1,7 +1,7 @@
 ```markdown
 # Scalable Modular AWS Two-Tier Infrastructure with Terraform
 
-An advanced Infrastructure as Code (IaC) repository implementing a highly decoupled, modularized two-tier web application architecture on AWS. By separating networking and compute into dedicated reusable modules, this architecture scales effortlessly and adheres to production-grade enterprise standards.
+An advanced Infrastructure as Code (IaC) repository implementing a highly decoupled, modularized two-tier web application architecture on AWS. By separating networking and compute into dedicated reusable modules.
 
 ## Modular Design Breakdown
 The project is strictly broken down into reusable building blocks:
